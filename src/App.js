@@ -2,9 +2,10 @@ import './App.css';
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
+import styled from 'styled-components';
 
 function App() {
+
   return (
     <div className="App">
       <Router>

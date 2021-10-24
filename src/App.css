@@ -1,11 +1,29 @@
 :root{
-    --blue : #68bddd;
+    --blue : #1ea1f1;
     --purple : #9167cc;
     --yellow : #ffdc5d;
     --orange : #ffac32; 
-    --dark-blue : #778ADC;
-    --gray : #e0e3ec;
+    --dark-blue : #4286f5;
+    --pale-blue: #007193;
+    --gray : #646464;
+    --black: #000000;
 }
 body{
     font-family: 'Lato', sans-serif;
+}
+
+p, li{
+    color: var(--gray);
+   
+}
+p{
+    font-size: 20px;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+}
+h1{
+    color: var(--black);
+    font-size: 65px;
 }
