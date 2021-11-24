@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import Button from './Button'
-import av1 from '../images/userAvatar01.svg'
 function HeroSection(props) {
     const Container =styled.div`
     margin: 2.5em 5em;
@@ -56,15 +55,6 @@ function HeroSection(props) {
                         display: 'flex',
                         padding: "1em 0"
                     }}>
-                        <div><img src={av1}></img></div>
-                        <LittleImgContainer ><img src={av1}></img></LittleImgContainer>
-                        <LittleImgContainer><img src={av1}></img></LittleImgContainer>
-                        <LittleImgContainer><img src={av1}></img></LittleImgContainer>
-                        <LittleImgContainer><img src={av1}></img></LittleImgContainer>
-                        <LittleImgContainer><img src={av1}></img></LittleImgContainer>
-                        <LittleImgContainer><img src={av1}></img></LittleImgContainer>
-                        <LittleImgContainer><img src={av1}></img></LittleImgContainer>
-                        <LittleImgContainer><img src={av1}></img></LittleImgContainer>
                     </ul>
                     <p>
                         Join <span style={{color:"var(--pale-blue)",

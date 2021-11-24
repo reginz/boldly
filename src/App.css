@@ -27,3 +27,6 @@ h1{
     color: var(--black);
     font-size: 65px;
 }
+h2{
+    font-size: 36px;
+}
