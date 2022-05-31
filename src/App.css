@@ -1,32 +1,126 @@
-:root{
-    --blue : #1ea1f1;
-    --purple : #9167cc;
-    --yellow : #ffdc5d;
-    --orange : #ffac32; 
-    --dark-blue : #4286f5;
-    --pale-blue: #007193;
-    --gray : #646464;
-    --black: #000000;
+:root {
+  --blue: #c6e2f4;
+  --purple: #4433ff;
+  --yellow: #ffdc5d;
+  --dark-gray: #4f5155;
+  --light-gray: #eff1f5;
+  --red: #e60066;
+  --black: #21232c;
 }
-body{
-    font-family: 'Lato', sans-serif;
+body {
+  font-family: "Nunito", sans-serif;
 }
 
-p, li{
-    color: var(--gray);
-   
+hr {
+  border: none;
+  height: 5px;
+  color: var(--light-gray);
+  background-color: var(--light-gray);
 }
-p{
-    font-size: 20px;
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: initial;
 }
-li, a{
-    text-decoration: none;
-    list-style: none;
+
+h1 {
+  color: var(--black);
+  font-size: 36px;
 }
-h1{
-    color: var(--black);
-    font-size: 65px;
+
+h2 {
+  font-size: 24px;
 }
-h2{
-    font-size: 36px;
+
+h3 {
+  font-size: 22px;
+}
+h4 {
+  font-size: 20px;
+  margin-top: 0.5em;
+}
+small {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.flex {
+  display: flex;
+}
+.gap {
+  gap: 2em;
+}
+.middle {
+  margin-left: -50px;
+}
+.wave {
+  position: absolute;
+  z-index: -100;
+  top: 0;
+}
+
+.text__purple {
+  color: var(--purple);
+}
+
+.text__bold {
+  font-weight: bold;
+}
+
+.text__semibold {
+  font-weight: 600;
+}
+
+.text__small-heading {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.text__red {
+  color: var(--red);
+}
+
+.logo {
+  font-size: 28px;
+  font-family: "Fredoka One", "Nunito", sans-serif;
+  color: var(--purple);
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 4px 11px rgba(79, 81, 85, 0.2);
+  padding: 2em;
+  background: var(--light-gray);
+  width: max-content;
+  max-width: 500px;
+}
+
+.table__column {
+  padding: 0.5em 1em;
+}
+
+.tag {
+  background-color: var(--blue);
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  width: max-content;
+}
+
+.sitting {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 150px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1em;
 }
