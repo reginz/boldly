@@ -53,12 +53,23 @@ small {
 .flex {
   display: flex;
 }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
 .gap {
   gap: 2em;
 }
 .middle {
   margin-left: -50px;
 }
+
+.post-container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 2em;
+}
+
 .wave {
   position: absolute;
   z-index: -100;
@@ -115,7 +126,7 @@ small {
   display: flex;
   width: 100%;
   justify-content: flex-end;
-  margin-top: 150px;
+  margin-top: 60px;
 }
 
 .navbar {
@@ -123,4 +134,18 @@ small {
   align-items: center;
   justify-content: space-between;
   padding-top: 1em;
+}
+
+.path {
+  stroke-dasharray: 500;
+  animation: dash 1s linear;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 800;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
