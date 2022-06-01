@@ -8,18 +8,22 @@ function Navbar() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    if (window.location.href === "http://localhost:3000/") {
+    if (window.location.pathname === "/") {
       setActive("posts");
-    } else if(window.location.href === "http://localhost:3000/inspo") {
+    } else if (window.location.pathname === "/inspo") {
       setActive("inspo");
     }
   }, []);
   return (
     <div>
       <div className="navbar">
-        <div >
-        <h1 style={{display:"inline"}} className="logo">boldly. {" "}</h1>
-        <small className="text__regular"><i>by Zeynep Evecen</i></small>
+        <div>
+          <h1 style={{ display: "inline" }} className="logo">
+            boldly.{" "}
+          </h1>
+          <small className="text__regular">
+            <i>by Zeynep Evecen</i>
+          </small>
         </div>
         <div className="desktop flex gap middle">
           <h4
@@ -86,11 +90,12 @@ function Navbar() {
         >
           <img src={list} />
         </button>
-        
       </div>
-      <div  style={{ zIndex:"10" , display: show === true ? "initial" : "none" }}>
-          <Modal />
-        </div>
+      <div
+        style={{ zIndex: "10", display: show === true ? "initial" : "none" }}
+      >
+        <Modal />
+      </div>
     </div>
   );
 }

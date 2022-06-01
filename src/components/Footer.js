@@ -16,8 +16,8 @@ function Footer() {
           </div>
           <div className="flex-column text__center">
             <p className="text__small-heading">website links</p>
-            <a href="https://twitter.com/reginz_" target="_blank">Posts</a>
-            <a href="https://www.linkedin.com/in/zeynep-evecen-24a587151/" target="_blank">Inspo</a>
+            <a href="/">Posts</a>
+            <a href="/inspo">Inspo</a>
 
           </div>
           <div className="flex-column text__center">

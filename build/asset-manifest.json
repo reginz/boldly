@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.49778c15.chunk.css",
-    "main.js": "/static/js/main.07823e0d.chunk.js",
-    "main.js.map": "/static/js/main.07823e0d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9cb8dee2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9cb8dee2.js.map",
+    "main.css": "/static/css/main.93105968.chunk.css",
+    "main.js": "/static/js/main.b4709121.chunk.js",
+    "main.js.map": "/static/js/main.b4709121.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c27ce8f3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c27ce8f3.js.map",
     "static/js/2.7d61bfe8.chunk.js": "/static/js/2.7d61bfe8.chunk.js",
     "static/js/2.7d61bfe8.chunk.js.map": "/static/js/2.7d61bfe8.chunk.js.map",
     "static/js/3.9d5587b2.chunk.js": "/static/js/3.9d5587b2.chunk.js",
     "static/js/3.9d5587b2.chunk.js.map": "/static/js/3.9d5587b2.chunk.js.map",
-    "static/js/4.f4e513ca.chunk.js": "/static/js/4.f4e513ca.chunk.js",
-    "static/js/4.f4e513ca.chunk.js.map": "/static/js/4.f4e513ca.chunk.js.map",
-    "static/js/5.ae3ba611.chunk.js": "/static/js/5.ae3ba611.chunk.js",
-    "static/js/5.ae3ba611.chunk.js.map": "/static/js/5.ae3ba611.chunk.js.map",
+    "static/js/4.70385469.chunk.js": "/static/js/4.70385469.chunk.js",
+    "static/js/4.70385469.chunk.js.map": "/static/js/4.70385469.chunk.js.map",
+    "static/js/5.2ebd277d.chunk.js": "/static/js/5.2ebd277d.chunk.js",
+    "static/js/5.2ebd277d.chunk.js.map": "/static/js/5.2ebd277d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.49778c15.chunk.css.map": "/static/css/main.49778c15.chunk.css.map",
+    "static/css/main.93105968.chunk.css.map": "/static/css/main.93105968.chunk.css.map",
     "static/js/2.7d61bfe8.chunk.js.LICENSE.txt": "/static/js/2.7d61bfe8.chunk.js.LICENSE.txt",
-    "static/media/a.md": "/static/media/a.97f8e094.md",
-    "static/media/ex.md": "/static/media/ex.1b423ff0.md",
+    "static/media/boxing-an-ai.md": "/static/media/boxing-an-ai.0533c7f8.md",
+    "static/media/do-things-surpass-your-life.md": "/static/media/do-things-surpass-your-life.97f8e094.md",
     "static/media/list.900d4129.svg": "/static/media/list.900d4129.svg",
     "static/media/post.3e726ca0.svg": "/static/media/post.3e726ca0.svg",
     "static/media/read.a565cee8.svg": "/static/media/read.a565cee8.svg",
@@ -26,9 +26,9 @@
     "static/media/wave.5ab9e1ac.svg": "/static/media/wave.5ab9e1ac.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9cb8dee2.js",
+    "static/js/runtime-main.c27ce8f3.js",
     "static/js/2.7d61bfe8.chunk.js",
-    "static/css/main.49778c15.chunk.css",
-    "static/js/main.07823e0d.chunk.js"
+    "static/css/main.93105968.chunk.css",
+    "static/js/main.b4709121.chunk.js"
   ]
 }

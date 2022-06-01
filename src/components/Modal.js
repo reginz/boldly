@@ -3,9 +3,9 @@ import React, { useState, useEffect } from "react";
 function Modal() {
   const [active, setActive] = useState();
   useEffect(() => {
-    if (window.location.href === "http://localhost:3000/") {
+    if (window.location.pathname === "/") {
       setActive("posts");
-    } else if (window.location.href === "http://localhost:3000/inspo") {
+    } else if (window.location.pathname === "/inspo") {
       setActive("inspo");
     }
   }, []);

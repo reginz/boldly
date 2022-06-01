@@ -46,7 +46,7 @@ small {
   font-size: 14px;
   font-weight: bold;
 }
-a {
+.table__cell {
   display: table-cell;
   vertical-align: inherit;
 }
@@ -219,8 +219,10 @@ a {
 .table td {
   padding: 1em;
 }
+
 .table {
   width: 100%;
+  min-width: 500px;
 }
 .pt-5 {
   padding-top: 5em;
