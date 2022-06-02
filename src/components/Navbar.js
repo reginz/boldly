@@ -17,14 +17,14 @@ function Navbar() {
   return (
     <div>
       <div className="navbar">
-        <div>
+        <a href="/">
           <h1 style={{ display: "inline" }} className="logo">
             boldly.{" "}
           </h1>
           <small className="text__regular">
             <i>by Zeynep Evecen</i>
           </small>
-        </div>
+        </a>
         <div className="desktop flex gap middle">
           <h4
             className={
