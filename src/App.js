@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Inspo from "./page/Inspo";
 import Post from "./components/PostInner";
 import Footer from "./components/Footer";
+import Explainers from "./page/Explainers";
 function App() {
   return (
     <div>
@@ -17,7 +18,7 @@ function App() {
           <Route exact path="/" component={Posts} />
           <Route path="/inspo" component={Inspo} />
           <Route path="/post/:id" component={Post} />
-
+          <Route path="/explainers" component={Explainers} />
         </Switch>
       </Router>
       <div>
