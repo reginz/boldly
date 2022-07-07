@@ -6,6 +6,8 @@ import Inspo from "./page/Inspo";
 import Post from "./components/PostInner";
 import Footer from "./components/Footer";
 import Explainers from "./page/Explainers";
+import Explainer from "./components/ExplainerInner";
+
 function App() {
   return (
     <div>
@@ -18,6 +20,7 @@ function App() {
           <Route exact path="/" component={Posts} />
           <Route path="/inspo" component={Inspo} />
           <Route path="/post/:id" component={Post} />
+          <Route path="/explainer/:id" component={Explainer} />
           <Route path="/explainers" component={Explainers} />
         </Switch>
       </Router>
