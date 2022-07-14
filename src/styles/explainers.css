@@ -1,0 +1,13 @@
+.pagnition__wrapper {
+  width: 500px;
+  height: 600px;
+  min-height: auto;
+  background: #f2f2f2;
+  border-radius: 10px;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+}
