@@ -2,8 +2,12 @@ import React, { useEffect, useState } from "react";
 import "../../styles/explainers.css";
 import { data } from "../../database/explainers/Ex1.json";
 import Progress_bar from "./ProgressBar";
+import forwardArrow from '../../images/forwardArrow.svg'
+import backwardArrow from '../../images/backwardArrow.svg'
+
 function PagnitionCard() {
   const [page, setPage] = useState(0);
+  const [progress, setProgress] = useState();
   const [content, setContent] = useState("");
   const [image, setImage] = useState("");
 
@@ -14,6 +18,8 @@ function PagnitionCard() {
       setContent(data[page].content[0]);
       setImage(data[page].content[1]);
     }
+    console.log(progress);
+    setProgress((page / (data.length - 1)) * 100);
   });
 
   const changeNext = () => {
@@ -36,19 +42,29 @@ function PagnitionCard() {
     }
   };
 
-  var progress = (page / data.length) * 100
-
   return (
     <div>
-      <div className="flex flex-end">
-        <button onClick={changePrev} className="circle bacward"></button>
-        <button onClick={changeNext} className="circle forward"></button>
+      <div className="flex justify-content-between align-items-center">
+        <div>
+          <p className="text__small-heading">{page + 1} / {data.length}</p>
+        </div>
+
+        <div className="flex flex-end gap">
+          <button onClick={changePrev} className="circle bacward"><img src={backwardArrow}></img></button>
+          <button onClick={changeNext} className="circle forward"><img src={forwardArrow}></img></button>
+        </div>
       </div>
       <div className="pagnition__wrapper">
-        {content}
-        {data[page].content[1] ? <img src={image}></img> : <div></div>}
+        <div className="content__wrapper">
+          {content}
+          {data[page].content[1] ? <img src={image}></img> : <div></div>}
+        </div>
       </div>
-      <Progress_bar bgcolor="red" progress={progress} height={30} />
+      <Progress_bar
+        bgcolor="var(--red)"
+        progress={Math.round(progress)}
+        height={19}
+      />
     </div>
   );
 }

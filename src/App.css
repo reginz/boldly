@@ -229,6 +229,13 @@ small {
   cursor: pointer;
 }
 
+.align-items-center{
+  align-items: center;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
 .tag {
   background-color: var(--blue);
   border-radius: 10px;
