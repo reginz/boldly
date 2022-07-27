@@ -57,7 +57,7 @@ function PagnitionCard() {
       <div className="pagnition__wrapper">
         <div className="content__wrapper">
           {content}
-          {data[page].content[1] ? <img src={image}></img> : <div></div>}
+           <img src={`../../../public/ill.webp`}></img> 
         </div>
       </div>
       <Progress_bar
