@@ -11,7 +11,7 @@ const post = [
     },
     {
         title:"Sorry 15-year old self, you’ll like school one day",
-        link:"/post/sorry-you'll-like-school",
+        link:"/post/sorry-you-will-like-school",
         description:"When I first started learning software, I was 15 and thought, `I never need to go to school for this`. Every piece of information I needed was out there on the internet. Well, this is still true; probably none of my..."
     },
 ]
