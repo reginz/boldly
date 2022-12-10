@@ -8,6 +8,11 @@ const post = [
         title:"Boxing an AI",
         link:"/post/boxing-an-ai",
         description:"There are many motivations to pursue the dream of superintelligence AI. Some of these are purely out of curiosity and a desire to create something that is not human, while others come from wanting to use AI for the s..."
-    }
+    },
+    {
+        title:"Sorry 15-year old self, you’ll like school one day",
+        link:"/post/sorry-you'll-like-school",
+        description:"When I first started learning software, I was 15 and thought, `I never need to go to school for this`. Every piece of information I needed was out there on the internet. Well, this is still true; probably none of my..."
+    },
 ]
 export default post
