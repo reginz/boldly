@@ -22,9 +22,9 @@ hr {
 li,
 a {
   text-decoration: none;
-  list-style: none;
   color: initial;
 }
+
 
 h1 {
   color: var(--black);

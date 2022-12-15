@@ -14,5 +14,10 @@ const post = [
         link:"/post/sorry-you-will-like-school",
         description:"When I first started learning software, I was 15 and thought, `I never need to go to school for this`. Every piece of information I needed was out there on the internet. Well, this is still true; probably none of my..."
     },
+    {
+        title:"Home design solutions for extremely small bedrooms",
+        link:"/post/home-design-for-small-spaces",
+        description:"When I first started learning software, I was 15 and thought, `I never need to go to school for this`. Every piece of information I needed was out there on the internet. Well, this is still true; probably none of my..."
+    },
 ]
 export default post
