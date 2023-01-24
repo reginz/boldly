@@ -43,5 +43,28 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyD2SyxahKy0dYRx_qLm6_Usil1jDbrPLF4",
+        authDomain: "boldly-ml.firebaseapp.com",
+        projectId: "boldly-ml",
+        storageBucket: "boldly-ml.appspot.com",
+        messagingSenderId: "473388546471",
+        appId: "1:473388546471:web:eab876083a5874cfba9e82",
+        measurementId: "G-VFRCES0904"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
