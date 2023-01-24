@@ -1,4 +1,4 @@
-# Home design solutions for extremely small bedrooms
+# Everything I’ve learnt from decorating my tiny room
 
 I have an extremely small bedroom it’s 2x3 meters (approx. 64^2 foot). And I’ve learnt a lot about interior design for small spaces while decorating and designing there. I am not an interior designer or someone with education about this topics. These are just my experiences and advices learnt along the way. 
 
@@ -20,5 +20,3 @@ You can use the disadvantage of living in a small space to an advantage, by addi
 3. **Plaid fabric**; If you are into Christmas/fireplace kinda cozy, you can always play around with textures and colors. The most iconic texture of that aesthetic is plaid.
 4. **Poping colors**; However if you are more a minimalist, you can use an accent colors in some places to make your room cozier. The key is you should pick warm tones. Otherwise it will not create a cozy effect.
 5. **Wood**; If you are not using a wood colored furniture, you can get a warm wood colored mirror or accessories.
-
-Overall, decorating and designing a small bedroom is definelety a challenge but with a little creativity, you can turn it into a cozy, functional space that you love.
